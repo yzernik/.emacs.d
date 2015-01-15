@@ -13,3 +13,8 @@
 ;; add CIDER
 (unless (package-installed-p 'cider)
   (package-install 'cider))
+
+
+;; add OCaml tuareg mode
+(add-to-list 'load-path "~/.emacs.d/tuareg-2.0.8/")
+(load "~/.emacs.d/tuareg-2.0.8/tuareg-site-file")
