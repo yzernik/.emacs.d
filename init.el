@@ -17,4 +17,4 @@
 
 ;; add OCaml tuareg mode
 (add-to-list 'load-path "~/.emacs.d/tuareg-2.0.8/")
-(load "~/.emacs.d/tuareg-2.0.8/tuareg-site-file")
+(load "tuareg-site-file")
