@@ -1,22 +1,14 @@
 (require 'package)
 
-;; add MELPA
-(add-to-list 'package-archives
-             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
-(when (< emacs-major-version 24)
-  ;; For important compatibility libraries like cl-lib
-  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
-(package-initialize)
+
+(add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
+(require 'init-melpa)
 
 
-;; add clojure-mode
-(unless (package-installed-p 'clojure-mode)
-  (package-refresh-contents))
-;; add CIDER
-(unless (package-installed-p 'cider)
-  (package-install 'cider))
+;;----------------------------------------------------------------------------
+;; Load configs for specific features and modes
+;;----------------------------------------------------------------------------
+(require 'init-clojure)
+(require 'init-ocaml)
 
-
-;; add OCaml tuareg mode
-(add-to-list 'load-path "~/.emacs.d/tuareg-2.0.8/")
-(load "tuareg-site-file")
+(provide 'init)
