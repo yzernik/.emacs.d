@@ -10,5 +10,7 @@
 ;;----------------------------------------------------------------------------
 (require 'init-clojure)
 (require 'init-ocaml)
+(require 'init-scala)
+
 
 (provide 'init)

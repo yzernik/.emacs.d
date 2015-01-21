@@ -1,11 +1,10 @@
 
 
 ;; add clojure-mode
-(unless (package-installed-p 'clojure-mode)
-  (package-refresh-contents))
+(require-package 'clojure-mode)
+
 ;; add CIDER
-(unless (package-installed-p 'cider)
-  (package-install 'cider))
+(require-package 'cider)
 
 
 (provide 'init-clojure)

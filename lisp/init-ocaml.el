@@ -1,8 +1,7 @@
 
 
 ;; add clojure-mode
-(unless (package-installed-p 'tuareg)
-  (package-refresh-contents))
+(require-package 'tuareg)
 
 
 (provide 'init-ocaml)
