@@ -10,15 +10,15 @@
 (unless package-archive-contents
   (package-refresh-contents))
 
-(package-refresh-contents)
-
 
 (defun require-package (package &optional min-version)
   "Install given PACKAGE, optionally requiring MIN-VERSION."
   (if (package-installed-p package min-version)
       t
     (if (assoc package package-archive-contents)
-        (package-install package)
+	(progn
+	  (package-refresh-contents)
+	  (package-install package))
       (progn
         (package-refresh-contents)
         (require-package package min-version t)))))
