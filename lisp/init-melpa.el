@@ -1,23 +1,23 @@
 
 ;; add MELPA
-;; add MELPA
 (add-to-list 'package-archives
          '("melpa" . "http://melpa.milkbox.net/packages/") t)
-(when (< emacs-major-version 24)
-  ;; For important compatibility libraries like cl-lib
-  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+
+; activate all the packages (in particular autoloads)
 (package-initialize)
-(when (not package-archive-contents)
+
+; fetch the list of packages available 
+(unless package-archive-contents
   (package-refresh-contents))
 
+(package-refresh-contents)
 
-(defun require-package (package &optional min-version no-refresh)
-  "Install given PACKAGE, optionally requiring MIN-VERSION.
-If NO-REFRESH is non-nil, the available package lists will not be
-re-downloaded in order to locate PACKAGE."
+
+(defun require-package (package &optional min-version)
+  "Install given PACKAGE, optionally requiring MIN-VERSION."
   (if (package-installed-p package min-version)
       t
-    (if (or (assoc package package-archive-contents) no-refresh)
+    (if (assoc package package-archive-contents)
         (package-install package)
       (progn
         (package-refresh-contents)
