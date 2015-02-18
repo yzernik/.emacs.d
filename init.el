@@ -12,6 +12,7 @@
 (require 'init-ocaml)
 (require 'init-scala)
 (require 'init-markdown)
+(require 'init-parens)
 
 
 (provide 'init)
