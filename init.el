@@ -1,6 +1,11 @@
 (require 'package)
 
 
+;; Start the emacs window maximized.
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
+
+;; Use MELPA
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 (require 'init-melpa)
 
