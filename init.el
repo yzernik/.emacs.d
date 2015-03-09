@@ -13,6 +13,7 @@
 ;;----------------------------------------------------------------------------
 ;; Load configs for specific features and modes
 ;;----------------------------------------------------------------------------
+(require 'init-auto-complete)
 (require 'init-clojure)
 (require 'init-ocaml)
 (require 'init-scala)
