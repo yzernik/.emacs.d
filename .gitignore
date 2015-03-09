@@ -7,3 +7,6 @@
 
 # abbrevs
 abbrev_defs
+
+# auto-complete history
+ac-comphist.dat

@@ -1,6 +1,6 @@
 
 
-;; add color themes
+;; add auto-complete
 (require-package 'auto-complete)
 
 (global-auto-complete-mode)
