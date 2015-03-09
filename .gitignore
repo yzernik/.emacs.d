@@ -2,4 +2,8 @@
 /auto-save-list
 /elpa
 
+# emacs tmp file
 *~
+
+# abbrevs
+abbrev_defs

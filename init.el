@@ -18,6 +18,7 @@
 (require 'init-scala)
 (require 'init-markdown)
 (require 'init-parens)
+(require 'init-colors)
 
 
 (provide 'init)
