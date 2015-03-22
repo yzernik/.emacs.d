@@ -1,8 +1,9 @@
 (require 'package)
 
 
-;; Start the emacs window maximized.
+;; Start the emacs window maximized, without welcome screen.
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
+(setq inhibit-startup-message t)
 
 
 ;; Use MELPA
