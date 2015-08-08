@@ -42,6 +42,7 @@
 (require 'init-hy)
 (require 'init-parens)
 (require 'init-colors)
+(require 'init-niceties)
 
 
 (provide 'init)
