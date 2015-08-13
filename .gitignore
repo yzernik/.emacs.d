@@ -10,3 +10,7 @@ abbrev_defs
 
 # auto-complete history
 ac-comphist.dat
+
+*.eld
+
+smex-items

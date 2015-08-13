@@ -29,6 +29,8 @@
 (setq column-number-mode t)
 
 
+(setq save-abbrevs 'silently)
+
 ;;----------------------------------------------------------------------------
 ;; Load configs for specific features and modes
 ;;----------------------------------------------------------------------------
@@ -41,7 +43,7 @@
 (require 'init-markdown)
 (require 'init-hy)
 (require 'init-parens)
-(require 'init-colors)
+;;(require 'init-colors)
 (require 'init-niceties)
 
 
