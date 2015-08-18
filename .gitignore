@@ -12,5 +12,6 @@ abbrev_defs
 ac-comphist.dat
 
 *.eld
+*.last
 
 smex-items
