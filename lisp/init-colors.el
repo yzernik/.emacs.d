@@ -1,17 +1,11 @@
 
 
 ;; add color themes
-(require-package 'sublime-themes)
+(require-package 'cyberpunk-theme)
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 
-;; Use the graham color theme in graphical mode,
-;; and the hickey color theme in "-nw" mode.
-(if (display-graphic-p)
-    ;; if graphic
-    (load-theme 'graham t)
-  ;; else (optional)
-  (load-theme 'hickey t))
-
+;; Use the cyberpunks color theme
+(load-theme 'cyberpunk t)
 
 (provide 'init-colors)
