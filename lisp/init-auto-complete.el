@@ -1,7 +1,10 @@
 
 ;; add auto-complete
+(require-package 'company)
 (require-package 'auto-complete)
 
-(global-auto-complete-mode)
+(if (display-graphic-p)
+    (global-company-mode)
+  (global-auto-complete-mode))
 
 (provide 'init-auto-complete)
