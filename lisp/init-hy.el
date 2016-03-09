@@ -1,5 +1,4 @@
 
-
 ;; add hy-mode
 (require-package 'hy-mode)
 
