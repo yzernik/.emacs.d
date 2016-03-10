@@ -1,4 +1,7 @@
 
+;; add paredit
+(require-package 'paredit)
+
 ;; add show-paren mode
 (setq show-paren-delay 0)
 (show-paren-mode 1)
