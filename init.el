@@ -18,13 +18,18 @@
 ;; Load configs for specific features and modes
 ;;----------------------------------------------------------------------------
 (require 'init-auto-complete)
+(require 'init-parens)
+(require 'init-colors)
+(require 'init-sounds)
+
+;;----------------------------------------------------------------------------
+;; Load configs for specific languages
+;;----------------------------------------------------------------------------
 (require 'init-clojure)
 (require 'init-ocaml)
 (require 'init-scala)
 (require 'init-markdown)
 (require 'init-hy)
-(require 'init-parens)
-(require 'init-colors)
 
 
 (provide 'init)
