@@ -1,6 +1,7 @@
 
 ;; add color themes
 (require-package 'cyberpunk-theme)
+(require-package 'rainbow-delimiters)
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 

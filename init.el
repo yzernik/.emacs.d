@@ -21,6 +21,7 @@
 (require 'init-parens)
 (require 'init-colors)
 (require 'init-sounds)
+(require 'init-indent)
 
 ;;----------------------------------------------------------------------------
 ;; Load configs for specific languages
