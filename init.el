@@ -22,6 +22,7 @@
 (require 'init-colors)
 (require 'init-sounds)
 (require 'init-indent)
+;;(require 'init-lint)
 
 ;;----------------------------------------------------------------------------
 ;; Load configs for specific languages
@@ -31,6 +32,7 @@
 (require 'init-scala)
 (require 'init-markdown)
 (require 'init-hy)
+(require 'init-javascript)
 
 
 (provide 'init)
