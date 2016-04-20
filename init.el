@@ -23,6 +23,7 @@
 (require 'init-sounds)
 (require 'init-indent)
 ;;(require 'init-lint)
+(require 'init-column-rule)
 
 ;;----------------------------------------------------------------------------
 ;; Load configs for specific languages
