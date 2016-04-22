@@ -30,7 +30,6 @@
 ;;----------------------------------------------------------------------------
 (require 'init-clojure)
 (require 'init-ocaml)
-(require 'init-scala)
 (require 'init-markdown)
 (require 'init-hy)
 (require 'init-javascript)
