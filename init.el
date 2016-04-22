@@ -28,6 +28,7 @@
 ;;----------------------------------------------------------------------------
 ;; Load configs for specific languages
 ;;----------------------------------------------------------------------------
+(require 'init-c)
 (require 'init-clojure)
 (require 'init-ocaml)
 (require 'init-markdown)
