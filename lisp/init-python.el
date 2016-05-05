@@ -1,13 +1,12 @@
 
-;; add anaconda-mode
-(require-package 'anaconda-mode)
+;; add company-jedi mode
+(require-package 'company-jedi)
 
-;; add company-anaconda
-(require-package 'company-anaconda)
-(eval-after-load "company"
-  '(add-to-list 'company-backends 'company-anaconda))
-(add-hook 'python-mode-hook 'anaconda-mode)
+(defun my/python-mode-hook ()
+  (add-to-list 'company-backends 'company-jedi))
 
-(add-hook 'python-mode-hook 'anaconda-mode)
+(add-hook 'python-mode-hook 'my/python-mode-hook)
+
+(jedi:install-server)
 
 (provide 'init-python)

@@ -10,3 +10,6 @@ abbrev_defs
 
 # auto-complete history
 ac-comphist.dat
+
+# python env
+.python-environments
