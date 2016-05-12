@@ -12,6 +12,9 @@
 (setq line-number-mode t)
 (setq column-number-mode t)
 
+;; show trailing whitespace
+(setq-default show-trailing-whitespace t)
+
 ;; Use MELPA
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 (require 'init-melpa)

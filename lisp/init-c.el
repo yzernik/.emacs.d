@@ -1,6 +1,6 @@
 
 ;; add cc-mode
-(require-package 'clojure-mode)
+(require-package 'cc-mode)
 
 ; set k&r style
 (setq c-default-style "k&r")
