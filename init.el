@@ -41,6 +41,7 @@
 (require 'init-hy)
 (require 'init-javascript)
 (require 'init-python)
+(require 'init-puppet)
 
 
 (provide 'init)
