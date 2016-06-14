@@ -5,8 +5,9 @@
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (setq inhibit-startup-message t)
 
-;; Disable the toolbar.
+;; Disable the toolbar and scrollbar.
 (tool-bar-mode -1)
+(scroll-bar-mode -1)
 
 ;; Display line and column numbers.
 (setq line-number-mode t)
