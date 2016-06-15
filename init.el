@@ -16,6 +16,9 @@
 ;; show trailing whitespace
 (setq-default show-trailing-whitespace t)
 
+;; use ssh for tramp-mode
+(setq tramp-default-method "ssh")
+
 ;; Use MELPA
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 (require 'init-melpa)

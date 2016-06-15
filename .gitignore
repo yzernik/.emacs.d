@@ -13,3 +13,6 @@ ac-comphist.dat
 
 # python env
 .python-environments
+
+# tramp
+tramp
