@@ -46,6 +46,7 @@
 (require 'init-javascript)
 (require 'init-python)
 (require 'init-puppet)
+(require 'init-yaml)
 
 
 (provide 'init)
