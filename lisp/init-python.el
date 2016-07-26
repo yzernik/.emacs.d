@@ -9,4 +9,10 @@
 
 (jedi:install-server)
 
+;; configure jedi to use Python 3
+(setq jedi:environment-root "jedi")  ; or any other name you like
+(setq jedi:environment-virtualenv
+      (append python-environment-virtualenv
+              '("--python" "/usr/local/bin/python3")))
+
 (provide 'init-python)
