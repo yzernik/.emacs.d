@@ -5,6 +5,9 @@
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (setq inhibit-startup-message t)
 
+(setq split-height-threshold nil)
+(setq split-width-threshold 160)
+
 ;; Disable the toolbar and scrollbar.
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
