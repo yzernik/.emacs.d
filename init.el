@@ -51,6 +51,7 @@
 (require 'init-python)
 (require 'init-puppet)
 (require 'init-yaml)
+(require 'init-terraform)
 
 
 (provide 'init)
