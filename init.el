@@ -52,6 +52,7 @@
 (require 'init-puppet)
 (require 'init-yaml)
 (require 'init-terraform)
+(require 'init-dockerfile)
 
 
 (provide 'init)
