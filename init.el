@@ -74,7 +74,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (rust-mode dockerfile-mode thrift terraform-mode yaml-mode puppet-mode company-jedi js2-mode hy-mode markdown-mode tuareg cider clojure-mode magit fill-column-indicator aggressive-indent rainbow-delimiters dracula-theme paredit auto-complete company))))
+    (jedi rust-mode dockerfile-mode thrift terraform-mode yaml-mode puppet-mode company-jedi js2-mode hy-mode markdown-mode tuareg cider clojure-mode magit fill-column-indicator aggressive-indent rainbow-delimiters dracula-theme paredit auto-complete company))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
