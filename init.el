@@ -64,6 +64,7 @@
 (require 'init-hcl)
 (require 'init-dockerfile)
 (require 'init-rust)
+(require 'init-nix)
 
 
 (provide 'init)
