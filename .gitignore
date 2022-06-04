@@ -16,3 +16,9 @@ ac-comphist.dat
 
 # tramp
 tramp
+
+# session
+session.*
+
+# transient
+transient/
